@@ -32,7 +32,7 @@ export default function InvestigationRequest() {
         </Link>
 
         <div className="text-center mb-16">
-          <h1 className="text-[45px] md:text-[60px] lg:text-[75px] font-bold text-[#ba060a] tracking-widest mb-4" style={{ textShadow: '0 0 40px rgba(186, 6, 10, 0.6)' }}>
+          <h1 className="text-[45px] md:text-[60px] lg:text-[75px] leading-[47px] md:leading-tight font-bold text-[#ba060a] tracking-widest mb-4" style={{ textShadow: '0 0 40px rgba(186, 6, 10, 0.6)' }}>
             Request Investigation
           </h1>
           <p className="text-[#b3a7ac] text-lg md:text-2xl font-light italic mt-4 max-w-3xl mx-auto" style={{ marginLeft: '10px', marginRight: '10px', paddingTop: '30px', paddingLeft: '0px', paddingBottom: '30px' }}>
