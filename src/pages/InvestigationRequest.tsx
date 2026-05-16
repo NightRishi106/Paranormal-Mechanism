@@ -22,7 +22,7 @@ export default function InvestigationRequest() {
   return (
     <div className="min-h-screen relative overflow-hidden selection:bg-[#ba060a] selection:text-white">
       {/* Subtle fog/smoke effect using radial gradients */}
-      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#ba060a]/10 via-[#000000]/80 to-[#000000] pointer-events-none z-0"></div>
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#ba060a]/40 via-[#000000]/70 to-[#000000]/90 pointer-events-none z-0 mix-blend-overlay"></div>
       
       <div className="relative z-10 max-w-5xl mx-auto px-5 py-10 md:py-20">
         
@@ -35,7 +35,7 @@ export default function InvestigationRequest() {
           <h1 className="text-[45px] md:text-[60px] lg:text-[75px] leading-[47px] md:leading-tight font-bold text-[#ba060a] tracking-widest mb-4" style={{ textShadow: '0 0 40px rgba(186, 6, 10, 0.6)' }}>
             Request Investigation
           </h1>
-          <p className="text-[#b3a7ac] text-lg md:text-2xl font-light italic mt-4 max-w-3xl mx-auto" style={{ marginLeft: '10px', marginRight: '10px', paddingTop: '30px', paddingLeft: '0px', paddingBottom: '30px' }}>
+          <p className="text-[#b3a7ac] text-lg md:text-2xl font-light italic mt-4 max-w-3xl mx-auto" style={{ marginLeft: '100px', marginRight: '10px', paddingTop: '30px', paddingLeft: '0px', paddingBottom: '30px' }}>
             "Every report is reviewed confidentially before intervention. The unknown requires precision."
           </p>
         </div>
@@ -143,7 +143,7 @@ export default function InvestigationRequest() {
 
         {formState === 'loading' && (
           <div className="bg-[#050000]/90 border border-[#ba060a]/40 px-10 py-24 rounded-2xl backdrop-blur-md shadow-[0_0_120px_rgba(186,6,10,0.8)] flex flex-col items-center justify-center min-h-[500px] animate-pulse relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('https://paranormalmechanism.com/images/Body-BG.webp')] opacity-20 mix-blend-overlay"></div>
+            <div className="absolute inset-0 bg-[#020000] opacity-20 mix-blend-overlay"></div>
             <div className="w-24 h-24 border-[6px] border-t-[#ff1a1f] border-r-transparent border-b-[#5a0000] border-l-transparent rounded-full animate-spin mb-8 shadow-[0_0_30px_#ba060a]"></div>
             <h3 className="text-3xl font-bold text-[#ff1a1f] tracking-[0.3em] uppercase mb-4" style={{ textShadow: '0 0 20px rgba(255, 26, 31, 0.8)' }}>Transmitting Data</h3>
             <p className="text-[#b3a7ac] italic text-xl tracking-wider">Encrypting case file...</p>

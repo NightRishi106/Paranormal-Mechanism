@@ -17,9 +17,9 @@ export default function Home() {
       <header className="full-width px-5 md:px-[50px] py-[50px] text-center">	
         <div className="flex flex-wrap justify-center items-center gap-y-6">
 
-          <div className="w-full md:w-3/12 flex justify-center md:justify-start md:pl-12 lg:pl-24">
-            <div className="pt-[30px] md:pt-0 max-w-[55%] md:max-w-full">
-              <img src="https://paranormalmechanism.com/images/logo.webp" alt="Logo" className="max-w-full" />
+          <div className="w-full md:w-3/12 flex justify-end md:pr-8 lg:pr-16">
+            <div className="pt-[30px] md:pt-0">
+              <img src="https://paranormalmechanism.com/images/logo.webp" alt="Logo" className="w-[200px] ml-[300px] pr-0 mt-0 h-auto object-contain" />
             </div>
           </div>		
         
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="w-full text-center mt-6 md:mt-[30px] pt-[25px] md:pt-[50px] lg:pt-[30px]">
             <Link 
               to="/request-investigation" 
-              className="btn-bg inline-block text-white text-[28px] sm:text-[35px] font-semibold py-[10px] px-[20px] sm:px-[35px] hover:text-[#175cff] transition-all"
+              className="btn-bg inline-block text-white text-[28px] sm:text-[35px] font-medium py-[10px] px-[20px] sm:px-[35px] hover:text-[#175cff] transition-all"
             >
               Book Investigation
             </Link>
