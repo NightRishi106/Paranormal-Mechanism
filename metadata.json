@@ -1,0 +1,8 @@
+{
+  "name": "Ram Ashok Kumar - Paranormal",
+  "description": "Paranormal Investigator & Tantra Practitioner website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
